@@ -4,9 +4,7 @@ PROJECT(RAY_TRACER)
 
 #Source
 set( RAY_TRACER
-	src/main.c
-	src/color.c
-	src/vec3.c
+	src/main.cpp
 )
 
 include_directories(src)
